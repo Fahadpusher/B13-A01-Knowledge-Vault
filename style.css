@@ -1,0 +1,159 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.container{
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.gray{
+  color: #6b7280;
+}
+
+.btn{
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  display: inline-block;
+  transition: 0.2s;
+}
+
+.btn:hover{
+  transform: translateY(-2px);
+}
+
+.btn-green{
+  background: #11884b;
+  color: white;
+}
+
+.btn-green:hover{
+  background: #0f7a43;
+}
+
+.btn-white{
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+.navbar{
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar .container{
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+}
+
+.menu{
+  flex: 1;
+  text-align: center;
+}
+
+.menu a{
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.hero{
+  background: url("assets/hero-bg.png") center/cover;
+  color: white;
+  padding: 80px 0;
+}
+
+.hero h1{
+  font-size: 42px;
+}
+
+.hero span{
+  color: #28c26a;
+}
+.section{ padding: 60px 0; 
+}
+
+.cards{
+  display: flex;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.card{
+  flex: 1;
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.icon{
+  height: 45px;
+  width: 45px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.red{background:#ef4444;}
+.pink{background:#f43f5e;}
+.lightpink{background:#fb7185;}
+.lightred{background:#f87171;}
+
+.two{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.two img{
+  width: 50%;
+}
+.early{
+  background: #f3f4f6;
+  padding: 50px 0;
+}
+.footer{
+  background: #071b2a;
+  color: white;
+  padding: 30px 0;
+}
+
+.footer-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.social a{ margin-left: 8px; }
+.social{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-icon{
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.15);
+  padding: 6px;
+  transition: 0.2s;
+}
+
+
